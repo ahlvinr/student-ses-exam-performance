@@ -20,7 +20,8 @@ Below is the complete text of our report the project, including introduction, me
 
 ### Introduction
 
-  Understanding how socioeconomic status (SES) shapes educational outcomes is a central question in both psychology and education research. While large datasets reveal broad trends, micro-level student data can help to gain an understanding of how individual and family characteristics shape academic performance.
+Understanding how socioeconomic status (SES) shapes educational outcomes is a central question in both psychology and education research. While large datasets reveal broad trends, micro-level student data can help to gain an understanding of how individual and family characteristics shape academic performance.
+
 To explore this relationship, my project examines whether socioeconomic status predicts exam performance, using a sample with over 6,000 high school students from the Student Performance Factors dataset on Kaggle (Nguyen, 2024). This dataset includes a variety of demographic and socioeconomic variables, such as Parental Education Level, Family Income, Access to Resources, Internet Access, and Exam Score. However, the origin of this dataset can raise some concerns. Because Kaggle datasets are often user-generated and lack documentation about data collection methods, the accuracy and generalizability of this dataset is not guaranteed. With this in mind, the findings of this project should be interpreted with caution. Using the available variables, my project aimed to answer the following research questions: 
 
 1. Does socioeconomic status predict academic performance (Exam Score)?
@@ -29,6 +30,7 @@ To explore this relationship, my project examines whether socioeconomic status p
 4. Can a composite SES index summarize multiple SES components effectively?
 
 My partner’s project approaches similar questions using a machine-learning model. Instead of focusing solely on SES, his model examines how every variable in the dataset contributes to predicting exam scores. Together, our projects analyze the same dataset from complementary angles, with my project using traditional regression modeling to isolate SES effects, and my partner using machine-learning methods to compare the relative importance of multiple predictors. 
+
 To answer my research questions, I constructed three regression models. All three models looked at the outcome variable of Exam Score. Model 1 included Parental Education Level only, Model 2 incorporated multiple SES variables (Parental Education Level, Family Income, Access to Resources, and Internet Access), and Model 3 used a composite SES index created from the variables in Model 2. 
 
 ---
@@ -53,7 +55,8 @@ Finally, Model 3 assessed whether a single composite SES index predicted exam pe
 
 #### Figure 1. Mean Exam Score by Parental Education Level
 
-[ADD YOUR EMBEDDED PLOTLY HTML HERE — instructions below]
+<h3>Figure 1. Mean Exam Score by Parental Education Level</h3>
+<iframe src="mean_exam_score_plot.html" width="800" height="500"></iframe>
 
 **Figure 1.** _Mean Exam Score by Parental Education Level, with 95% confidence intervals representing uncertainty around each mean estimate. Mean exam performance increases gradually across Parental Education Level. Students whose parents completed postgraduate education scored the highest on average, followed by students with college-educated parents, and then by students with high school-educated parents._
 
@@ -61,7 +64,8 @@ Finally, Model 3 assessed whether a single composite SES index predicted exam pe
 
 #### Figure 2. SES Index Scatterplot with Best-Fit Line
 
-[ADD SECOND EMBEDDED PLOTLY HTML HERE]
+<h3>Figure 2. SES Index vs Exam Score (Plotly Interactive)</h3>
+<iframe src="ses_index_vs_exam_score2.html" width="800" height="500"></iframe>
 
 **Figure 2.** _Scatterplot of SES Index predicting Exam Score with line of best fit. A positive correlation can be seen between the SES index and Exam Score, indicating that students with a higher SES index generally had higher Exam Scores._ 
 
@@ -70,6 +74,7 @@ Finally, Model 3 assessed whether a single composite SES index predicted exam pe
 ### Conclusions
 
 This project examined whether different factors of socioeconomic status predict exam performance in high school students. Across all three regression models, SES proved to be a meaningful predictor of academic achievement. Model 1 showed that parental education alone was significant but a relatively weak predictor. Model 2 revealed that a multi-factor SES model offered the strongest predictive power, reinforcing the idea that SES is multidimensional. Model 3 applied a composite SES index to summarize multiple SES components into a single measure.  Although Model 3 was slightly less precise than the full multi-factor model, it still effectively captured the overall relationship between SES and exam performance. 
+
 These findings align with my partner’s machine learning analysis, which similarly found that SES variables, while not the strongest predictors in the dataset, meaningfully contribute to exam performance in combination with other factors. Together, our approaches highlight how traditional regression and machine learning modeling can complement each other in understanding the predictors of academic outcomes. 
 
 Several limitations should be considered when interpreting these results. First, because the dataset is observational, the analyses cannot establish causal relationships between SES variables and performance. In addition, the SES indicators were broad and most likely self-reported, which may introduce bias or reduce measurement accuracy. Exam Score also only captures one element of academic achievement, and may not be fully representative of students’ academic abilities or experiences. Finally, the origin and undocumented nature of the Kaggle dataset raise questions about the reliability and generalizability of the data and results. 
