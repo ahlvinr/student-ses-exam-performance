@@ -30,10 +30,8 @@ Model 1 assessed whether Parental Education Level alone predicted exam performan
 
 **Table 1: Regression Output for Model 1**
 
-| Index            | Coefficient | Std Error | t-value  | p-value | CI Lower | CI Upper |
-|------------------|-------------|-----------|----------|---------|----------|----------|
-| Intercept        |    66.87    |   0.065   | 1032.327 |    0    |  66.743  |  66.997  |
-| Parent Education |    1.043    |   0.123   |   8.467  |    0    |   0.801  |   1.284  |
+![Regression Table for Model 1](model1_table.png)
+
 **Table 1.** _This table reports the estimated regression coefficient and other relevant statistics for Parental Education Level predicting Exam Score. While statistically significant, the effect size is small, and the model fit is weak, indicating that parental education alone explains only a small amount of variance in exam performance._ 
 
 Model 2 included four SES variables: Parental Education Level, Family Income, Internet Access, and Access to Resources. The model showed that all SES variables were significant predictors of academic achievement (all _p_ < .001) in the expected direction. Higher family income was associated with higher exam scores, internet access predicted higher performance, greater access to resources was associated with higher exam scores, and parental education remained a significant predictor even with other SES variables included. Additionally, this model had substantially higher explanatory power than Model 1 (\( R^2 \) = .052). This suggests that SES is multifaceted and is better captured when multiple indicators are considered rather than parental education alone. 
