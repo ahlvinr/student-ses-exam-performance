@@ -2,8 +2,7 @@
 
 **Group Members:** Ruby Ahlvin and Nick Twum  
 **Colab Notebook:** <https://colab.research.google.com/drive/1P7jSCdV7_VQPwMsuAb-WEgrDjk4iF9Uv?usp=sharing>
-**Project Webpage (Full Report + Interactive Visualizations):**  
-<https://ahlvinr.github.io/student-ses-exam-performance/>
+**Project Webpage (Full Report + Interactive Visualizations):** <https://ahlvinr.github.io/student-ses-exam-performance/>
 
 ---
 
