@@ -1,4 +1,9 @@
-# How Economic Resources Shape Educational Outcomes: SES Predictors of Exam Performance
+---
+layout: page
+title: "How Economic Resources Shape Educational Outcomes: SES Predictors of Exam Performance"
+subtitle: "Ruby Ahlvin · Data Science Final Project"
+---
+
 
 ## Introduction
 Understanding how socioeconomic status (SES) shapes educational outcomes is a central question in both psychology and education research. While large datasets reveal broad trends, micro-level student data can help to gain an understanding of how individual and family characteristics shape academic performance.
