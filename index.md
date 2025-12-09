@@ -30,7 +30,10 @@ Model 1 assessed whether Parental Education Level alone predicted exam performan
 
 **Table 1: Regression Output for Model 1**
 
-![Regression Table for Model 1](model1_table.png)
+| Index            | Coefficient | Std Error | t-value  | p-value | CI Lower | CI Upper |
+|------------------|-------------|-----------|----------|---------|----------|----------|
+| Intercept        |    66.87    |   0.065   | 1032.327 |   0.0   |  66.743  |  66.997  |
+| Parent Education |    1.043    |   0.123   |   8.467  |   0.0   |   0.801  |   1.284  |
 
 **Table 1.** _This table reports the estimated regression coefficient and other relevant statistics for Parental Education Level predicting Exam Score. While statistically significant, the effect size is small, and the model fit is weak, indicating that parental education alone explains only a small amount of variance in exam performance._ 
 
