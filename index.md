@@ -47,6 +47,7 @@ Model 2 included four SES variables: Parental Education Level, Family Income, In
 | Access to Resources (Med)  |    0.927    |   0.125   |  7.436  |    0    |   0.682  |   1.171  |
 | Access to Resources (High) |    1.902    |   0.136   |  13.974 |    0    |   1.635  |   2.169  |
 | Parent Education           |    1.054    |   0.121   |  8.734  |    0    |   0.817  |   1.291  |
+
 **Table 2.** _This table reports regression estimates for four SES predictors. Each SES variable significantly predicts Exam Score, with higher SES (income, resources, internet access, or parental education) being associated with higher exam scores. The model shows improved explanatory power compared to Model 1, revealing that SES is better captured when multiple indicators are considered together._
 
 
@@ -58,6 +59,7 @@ Finally, Model 3 assessed whether a single composite SES index predicted exam pe
 |------------------|-------------|-----------|---------|---------|----------|----------|
 | Intercept        |    64.542   |   0.159   | 406.181 |    0    |   64.23  |  64.853  |
 | Parent Education |    4.856    |   0.273   |  17.77  |    0    |   4.32   |   5.392  |
+
 **Table 3.** _This table reports the regression results using the SES Index as a single composite predictor. The SES Index significantly predicted Exam Score and offers a simpler way to summarize socioeconomic advantage, though it sacrifices some explanatory precision compared to the multi-factor model._
 
 
