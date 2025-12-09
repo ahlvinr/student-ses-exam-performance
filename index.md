@@ -76,6 +76,6 @@ Future research could address these limitations by incorporating additional SES 
 ## References
 
 Nguyen, T. (2024). *Student Performance Factors* [Dataset]. Kaggle.  
-https://www.kaggle.com/datasets/lainguyn123/student-performance-factors
+<https://www.kaggle.com/datasets/lainguyn123/student-performance-factors>
 
 ---
