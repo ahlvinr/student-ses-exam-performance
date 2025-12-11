@@ -1,6 +1,7 @@
 ---
 title: "How Economic Resources Shape Educational Outcomes: SES Predictors of Exam Performance"
-description: "Ruby Ahlvin · Data Science Final Project"
+description: "Ruby Ahlvin · Data Science Final Project
+Partner Project by Nick Twum"
 --- 
 
 ## Introduction
